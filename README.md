@@ -1,4 +1,4 @@
-# BerraMihribanOrence_MetroSimulation.py
+# Autonomous Metro Simulation
  Ending Project For Akbank Python - Intro to AI Bootcamp, Metro Simulation
 
 ![Image](https://github.com/user-attachments/assets/667f5d9b-1bb5-4162-9095-86a705bcbdc1)
@@ -8,26 +8,26 @@
 
 This project is desgined and built for as an ending project for Akbank Bootcamp called Introduction to Artificial Intelligence(AI) and Introduction to Python. Every part of this project shows how to do the following:
 
-1.Create a subway simulation with using python and algorithm structures
+1. Create a subway simulation with using python and algorithm structures
 
-2.Automatically find the shortest path between two stations using the least amount of transfers
+2. Automatically find the shortest path between two stations using the least amount of transfers
 
 
-# Why it has a hybrid approach
+# Why It Has a Hybrid Approach
 
 ## A) BFS (Breadth First Research) to determine transfer-minimal paths
 
 BFS algorithm keywords:
 
-1. Traversal, BFS explores nodes level by level.
-2. Queue, It uses a queue for order processing.
-3. Shortest Path, It finds the shortest path in unweighted graphs.
-4. Neighbors, It visits all adjacent nodes before moving deeper.
-5. FIFO, Nodes are processed in a first-in, first-out manner.
-6. Graph, Works on trees, grids, and general graphs.
-7. Unweighted, Guarantees the fewest edges to a destination.
-8. Complexity, Runs in O(V + E) time.
-9. Cycle, Detects cycles in an undirected graph.
+1.  Traversal, BFS explores nodes level by level.
+2.  Queue, It uses a queue for order processing.
+3.  Shortest Path, It finds the shortest path in unweighted graphs.
+4.  Neighbors, It visits all adjacent nodes before moving deeper.
+5.  FIFO, Nodes are processed in a first-in, first-out manner.
+6.  Graph, Works on trees, grids, and general graphs.
+7.  Unweighted, Guarantees the fewest edges to a destination.
+8.  Complexity, Runs in O(V + E) time.
+9.  Cycle, Detects cycles in an undirected graph.
 10. Connected, Finds all reachable nodes from a source.
 
 ## How does it work:
@@ -38,15 +38,15 @@ The BFS (Breadth-First Search) algorithm explores a graph level by level using a
 
 A* algorithm keywords:
 
-1. Heuristic, A* uses a heuristic to guide the search.
-2. Cost, It calculates the total cost as g(n) + h(n).
-3. Priority Queue, Nodes are processed based on priority.
-4. Shortest Path, Finds the most efficient route in weighted graphs.
-5. Exploration, Expands the lowest-cost node first.
-6. Grid, Commonly used for pathfinding in maps.
-7. Efficiency, Faster than Dijkstra algorithm in many cases.
-8. Obstacles, Can navigate around barriers efficiently.
-9. Waypoints, Finds optimal paths through multiple points.
+1.  Heuristic, A* uses a heuristic to guide the search.
+2.  Cost, It calculates the total cost as g(n) + h(n).
+3.  Priority Queue, Nodes are processed based on priority.
+4.  Shortest Path, Finds the most efficient route in weighted graphs.
+5.  Exploration, Expands the lowest-cost node first.
+6.  Grid, Commonly used for pathfinding in maps.
+7.  Efficiency, Faster than Dijkstra algorithm in many cases.
+8.  Obstacles, Can navigate around barriers efficiently.
+9.  Waypoints, Finds optimal paths through multiple points.
 10. Flexibility, Adapts to different heuristics for accuracy.
 
 ## How does it work:
@@ -56,13 +56,29 @@ The A* algorithm finds the shortest path by evaluating nodes based on their tota
 
 ## User Instructions - How to Install
 
-The easiest way to see how this works here is the shortest version
+The easiest way to see how this works is to try by yourself. The shortest way to use the project is to install it by using these steps: 
 
 1. Clone this repository
-2. Go into repository
-3. Set up a 
-4. Install with
-5. Run
+2. Go into your repository 
+3. Install it
+4. Run the code 
+
+
+## Example Usage and Test Results
+
+To be able to run the code the command below must work:
+
+python BerraMihribanOrence_MetroSimulation.py
+
+
+*Test Results*:
+
+The project works without errors.
+
+Example case 1, the subway path from AŞTİ to OSB:
+
+Least transfer route: AŞTİ -> Kızılay -> Kızılay -> Ulus -> Demetevler -> OSB
+Fastest route (25 minutes): AŞTİ -> Kızılay -> Kızılay -> Ulus -> Demetevler -> OSB
 
 
 ## How to Tweak This Project For Your own Uses
@@ -77,11 +93,11 @@ If you found an issue or would like to submit an improvement please submit an is
 
 ## Known Issues
 
-This project is still ongoing and hasnt been completed yet. This is coming soon!
+This project is still ongoing and hasn't been completed yet. This is coming soon!
 
 
 ## Visual 
 
-Example visual of the subway path
+Example visual of the subway path:
 
 ![Image](https://github.com/user-attachments/assets/566ef702-0139-4ac8-a9f5-1d20e8765173)
