@@ -64,14 +64,14 @@ The easiest way to see how this works is to try by yourself. The shortest way to
 4. Run the code 
 
 
-## Example Usage and Test Results
+## Example Usage 
 
 To be able to run the code the command below must work:
 
-python BerraMihribanOrence_MetroSimulation.py
+![Image](https://github.com/user-attachments/assets/11465e53-10bf-4cec-a428-691cb2352312)
 
 
-*Test Results*:
+## Test Results
 
 The project works without errors.
 
