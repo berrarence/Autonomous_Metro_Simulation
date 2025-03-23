@@ -3,7 +3,7 @@
 
 ![Image](https://github.com/user-attachments/assets/667f5d9b-1bb5-4162-9095-86a705bcbdc1)
 
-## A functional Metro Simulation project that is designed for finding the using the least amount of transfers in subway and shortest path by implementing BFS (Breadtg First Research) and A* algorithms
+## A functional Metro Simulation project that is designed for finding while using the least amount of transfers in subway and shortest path by implementing BFS (Breadtg First Research) and A* algorithms
 
 
 This project is desgined and built for as an ending project for Akbank Bootcamp called Introduction to Artificial Intelligence(AI) and Introduction to Python. Every part of this project shows how to do the following:
