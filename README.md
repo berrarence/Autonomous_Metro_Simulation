@@ -10,7 +10,7 @@ This project is desgined and built for as an ending project for Akbank Bootcamp 
 
 1.Create a subway simulation with using python and algorithm structures
 
-2.Automatically find the shortest path between two stations using the least amount of tranfers
+2.Automatically find the shortest path between two stations using the least amount of transfers
 
 
 # Why it has a hybrid approach
