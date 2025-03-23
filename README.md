@@ -32,7 +32,7 @@ BFS algorithm keywords:
 
 ## How does it work:
 
-The BFS (Breadth-First Search) algorithm explores a graph level by level using a queue (FIFO order). It starts from the source node, visiting all adjacent (neighbor) nodes before moving deeper. BFS ensures the shortest path in an unweighted graph by always expanding the earliest discovered nodes first. The algorithm marks visited nodes to avoid cycles and redundant processing. It continues until it either finds the goal node or explores all possible paths. With a time complexity of O(V + E), BFS is useful for shortest pathfinding, connected components detection, and cycle detection in undirected graphs.
+The BFS (Breadth-First Search) algorithm explores a graph level by level using a queue (order). It starts from the source node, visiting all adjacent (neighbor) nodes before moving deeper. BFS ensures the shortest path in an unweighted graph by always expanding the earliest discovered nodes first. The algorithm marks visited nodes to avoid cycles and redundant processing. It continues until it either finds the goal node or explores all possible paths. With a time complexity of O(V + E), BFS is useful for shortest pathfinding, connected components detection, and cycle detection in undirected graphs.
 
 ## B) A* for fine-tuning shortest travel time
 
