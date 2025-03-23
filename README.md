@@ -3,7 +3,7 @@
 
 ![Image](https://github.com/user-attachments/assets/667f5d9b-1bb5-4162-9095-86a705bcbdc1)
 
-## A functional Metro Simulation project that is designed for finding while using the least amount of transfers in subway and shortest path by implementing BFS (Breadtg First Research) and A* algorithms
+## A functional Metro Simulation project that is designed for finding the shortest path while using the least amount of transfers in subway by implementing BFS (Breadth First Research) and A* algorithms
 
 
 This project is desgined and built for as an ending project for Akbank Bootcamp called Introduction to Artificial Intelligence(AI) and Introduction to Python. Every part of this project shows how to do the following:
@@ -30,7 +30,7 @@ BFS algorithm keywords:
 9. Cycle, Detects cycles in an undirected graph.
 10. Connected, Finds all reachable nodes from a source.
 
-How does it work:
+## How does it work:
 
 The BFS (Breadth-First Search) algorithm explores a graph level by level using a queue (FIFO order). It starts from the source node, visiting all adjacent (neighbor) nodes before moving deeper. BFS ensures the shortest path in an unweighted graph by always expanding the earliest discovered nodes first. The algorithm marks visited nodes to avoid cycles and redundant processing. It continues until it either finds the goal node or explores all possible paths. With a time complexity of O(V + E), BFS is useful for shortest pathfinding, connected components detection, and cycle detection in undirected graphs.
 
@@ -49,7 +49,7 @@ A* algorithm keywords:
 9. Waypoints, Finds optimal paths through multiple points.
 10. Flexibility, Adapts to different heuristics for accuracy.
 
-How does it work:
+## How does it work:
 
 The A* algorithm finds the shortest path by evaluating nodes based on their total cost, f(n) = g(n) + h(n), where g(n) is the cost from the start node and h(n) is the estimated cost to the goal (heuristic). It starts by adding the initial node to a priority queue, selecting the node with the lowest f(n), and expanding its neighbors. If a better path is found, it updates g(n) and recalculates f(n). The algorithm continues exploring the most promising routes using h(n) until it reaches the goal, then reconstructs the shortest path through backtracking.
 
@@ -60,9 +60,9 @@ The easiest way to see how this works here is the shortest version
 
 1. Clone this repository
 2. Go into repository
-Set up a 
-3. Install with
-4. Run
+3. Set up a 
+4. Install with
+5. Run
 
 
 ## How to Tweak This Project For Your own Uses
@@ -82,6 +82,6 @@ This project is still ongoing and hasnt been completed yet. This is coming soon!
 
 ## Visual 
 
-Example visual of the path
+Example visual of the subway path
 
 ![Image](https://github.com/user-attachments/assets/566ef702-0139-4ac8-a9f5-1d20e8765173)
